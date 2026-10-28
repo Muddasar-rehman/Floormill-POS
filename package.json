@@ -1,0 +1,14 @@
+{
+  "name": "grain-erp",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@11.0.8",
+  "scripts": {
+    "desktop": "pnpm --filter desktop tauri dev",
+    "mobile": "pnpm --filter mobile start",
+    "build:shared": "pnpm --filter shared build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

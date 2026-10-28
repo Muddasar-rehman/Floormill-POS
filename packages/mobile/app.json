@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "The Awan Flour Mill",
+    "slug": "awan-flour-mill",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "grainerp",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-sharing"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.awanflourmill.mobile"
+    },
+    "android": {
+      "package": "com.awanflourmill.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "474dcf6c-4112-44dd-af53-f576177c0fb5"
+      }
+    },
+    "owner": "zain499131"
+  }
+}

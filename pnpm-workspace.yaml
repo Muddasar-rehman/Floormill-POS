@@ -1,0 +1,9 @@
+packages:
+  - "packages/*"
+allowBuilds:
+  dtrace-provider: false
+  esbuild: true
+overrides:
+  react: 19.2.7
+  react-dom: 19.2.7
+  zod: 3.23.8
